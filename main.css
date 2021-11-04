@@ -1,0 +1,148 @@
+h1{ color: rgb(94, 84, 27);
+    font-size: 90px; text-align: center; border: 3px solid #fff;}
+h2 { color: rgb(235, 214, 214); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
+     sans-serif; font-size: 60px; background-color: rgb(190, 132, 24); text-align: center; border: 3px solid #fff; }
+p{ color: rgb(122, 59, 7); font-size: 28px; border: 3px solid #fff;}
+h3{ color:rgb(5, 35, 41); font-size: 40px;}
+h4 { color: rgb(71, 8, 71);font-size: 30px;}
+
+
+#back-ground { color: brown;}
+
+.container {
+    width: 70;
+    margin: 50px auto; 
+    padding: 10px;
+ }
+
+/*     button */
+button { color: rgb(192, 192, 216); font-size: 53px;background-color: rgb(112, 7, 7);
+     text-decoration-style: double; font-family: sans-serif; text-indent: initial ; border: 6px solid rgb(26, 24, 24)}
+.large { font-size: 70px; }
+.center { text-align: center;}
+
+#navbar {
+    display: flex;
+}
+#navbar{ color: rgb(23, 27, 25); }
+img {
+    width: 160x; border: 3px solid #fff;
+}
+#video-yt { border: 3px solid #fff;}
+
+.flexcontainer { 
+
+    display: flex;
+    justify-content: space-around;
+        width: 70;
+        margin: 50px auto; 
+        padding: 10px;
+}
+
+/* images    */
+.biggerimage { 
+    width: 400px;}
+#start-part { color: rgb(30, 16, 36); font-family: fantasy ; font-size: 36; font-weight: lighter;
+    
+        width: 70;
+        margin: 50px auto; 
+        padding: 10px;
+     }
+
+
+#start-part { backface-visibility: hidden;}
+#start-partone { color: rgb(23, 22, 24);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+        font-size: 30px; }
+
+        /* header image and text  */
+ *{ 
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+      }
+body { font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    .banner-area{ 
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("./Images1/image34.jpg");
+        background-size: cover;
+    }    
+     .content-area{
+         height: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    .content{
+        text-align: left;
+    }
+        .content h1{
+        font-size: 80; color: rgb(245, 238, 233); text-align: left;
+    }
+    .content p { 
+        font-size: 32; text-align: left;}
+    #intro-top { color: rgb(233, 200, 150); text-align: center;}
+
+
+#places_p { background-color: rgb(46, 34, 18);color: rgb(227, 236, 236); font-family: monospace;}
+
+
+
+
+
+ .wrapper{
+     width: 1170px;
+     margin: auto;
+ }
+ 
+
+
+/* hotels and eat */
+
+#hotels{ color: rgb(235, 229, 225); font-size: 35px; text-align: left ;
+    width: 70;
+    margin: 50px auto; 
+    padding: 10px;}
+#restaurant {  color: rgb(243, 235, 231); font-size: 35px; text-align: left;}
+
+#foot-comand {color: rgb(209, 115, 28); text-align: center;}
+
+
+#hotel_img 
+{
+   width: 50%; text-align: center;
+}
+
+/* animated */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+html{ 
+    font-size: 10px;
+    font-family: sans-serif,;
+}
+section{ 
+    width: 100%;
+    height: 700vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #e08721, #581515, #d6e07b, #e40909);
+    background-size: 100%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    }
+
+@keyframes change {
+    0% { 
+        background-position: 0 50%;
+    }
+    50% {background-position: 100% 50%;
+    }
+    100% { background-position: 0 50%;}
+}
+
+
